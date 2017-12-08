@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eurosoft.mega.site.tr.fragments.CallingCardFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvCC1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="20dp"
+            android:textColor="@color/colorBlack"/>
+
+            <LinearLayout
+                android:id="@+id/llCC"
+                android:layout_below="@+id/tvCC1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:src="@drawable/ipc5tl"
+                    android:contentDescription="@null" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:src="@drawable/ipc10tl"
+                    android:contentDescription="@null" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvCC2"
+                android:layout_below="@+id/llCC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:padding="20dp"
+                android:textColor="@color/colorBlack"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

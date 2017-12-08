@@ -1,0 +1,9 @@
+Network Altyapımız
+Mega; toplam 13 adet pop noktası ile kendisine ait MPLS VPN network altyapısı üzerinden hizmet vermektedir.Network altyapısının getirdiği avantajlar;
+
+1. Tüm dış etkenkenlerden yalıtılmış yüksek güvenlik seviyesine sahip iletişim altyapısı.
+2. Esnek tasarım ve kolay ölçeklenebilirlik ve işletim.
+3. Paket dolaşım stratejisinin (Label Switching) getirdiği yüksek hız ve adanmış sabit bant genişliğinin sağladığı kesintisiz sürekli iletişim.
+4. Anahtarlama ve yönlendirme protokolleri ile maksimum performans ve verimlilik.
+5. (QoS) Servis Kalitesi.
+6. Alternatif veri yolu tanımlanabilirliği sayesinde en efektif veri transferi.

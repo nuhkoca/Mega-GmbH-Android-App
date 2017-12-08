@@ -1,0 +1,15 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eurosoft.mega.site.tr.fragments.OpeningFragment">
+
+    <ImageView
+        android:id="@+id/ivOpening"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@null"
+        android:src="@drawable/openingbg"
+        android:scaleType="fitXY"/>
+
+</FrameLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/option1"
+            android:icon="@drawable/ic_settings_phone_black_24dp"
+            android:title="@string/option_1" />
+        <item
+            android:id="@+id/option2"
+            android:icon="@drawable/ic_work_black_24dp"
+            android:title="@string/option_2" />
+        <item
+            android:id="@+id/option3"
+            android:icon="@drawable/ic_credit_card_black_24dp"
+            android:title="@string/option_3" />
+        <item
+            android:id="@+id/option4"
+            android:icon="@drawable/ic_verified_user_black_24dp"
+            android:title="@string/option_4" />
+        <item
+            android:id="@+id/option5"
+            android:icon="@drawable/ic_headset_mic_black_24dp"
+            android:title="@string/option_5" />
+        <item
+            android:id="@+id/option6"
+            android:icon="@drawable/ic_stars_black_24dp"
+            android:title="@string/option_6" />
+    </group>
+
+    <item android:title="@string/group_header_1">
+        <menu>
+            <item
+                android:id="@+id/option7"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="@string/option_7" />
+            <item
+                android:id="@+id/option8"
+                android:icon="@drawable/ic_store_black_24dp"
+                android:title="@string/option_8" />
+        </menu>
+    </item>
+
+    <item android:title="@string/group_header_2">
+        <menu>
+            <item
+                android:id="@+id/option9"
+                android:icon="@drawable/ic_extension_black_24dp"
+                android:title="@string/option_9" />
+            <item
+                android:id="@+id/option10"
+                android:icon="@drawable/ic_supervisor_account_black_24dp"
+                android:title="@string/option_10" />
+        </menu>
+    </item>
+    <item android:title="@string/group_header_3">
+        <menu>
+            <item
+                android:id="@+id/option11"
+                android:icon="@drawable/ic_info_outline_black_24dp"
+                android:title="@string/option_11" />
+            <item
+                android:id="@+id/option12"
+                android:icon="@drawable/ic_wifi_tethering_black_24dp"
+                android:title="@string/option_12" />
+        </menu>
+    </item>
+
+    <item android:title="@string/group_header_4">
+        <menu>
+            <item
+                android:id="@+id/option13"
+                android:icon="@drawable/ic_question_answer_black_24dp"
+                android:title="@string/option_13" />
+        </menu>
+    </item>
+
+</menu>

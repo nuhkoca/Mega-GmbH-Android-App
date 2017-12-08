@@ -1,0 +1,55 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.eurosoft.mega.site.tr.fragments.UnknownNumbersFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/ivUN1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/logo11881"
+                android:contentDescription="@null" />
+
+            <TextView
+                android:id="@+id/tvUN1"
+                android:layout_below="@+id/ivUN1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:padding="20dp"
+                android:textColor="@color/colorBlack"/>
+
+            <ImageView
+                android:id="@+id/ivUN2"
+                android:layout_below="@+id/tvUN1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:src="@drawable/logo11883"
+                android:contentDescription="@null" />
+
+
+            <TextView
+                android:id="@+id/tvUN2"
+                android:layout_below="@+id/ivUN2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:padding="20dp"
+                android:textColor="@color/colorBlack"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>
